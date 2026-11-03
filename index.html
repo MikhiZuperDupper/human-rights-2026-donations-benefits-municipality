@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Исследование и интерактивная модель налоговых льгот для бизнеса за цифровые пожертвования муниципальным образованиям.">
+  <meta name="theme-color" content="#f2f2f0">
+  <title>Экономическая свобода бизнеса и автономия муниципалитетов — Михаил Сапогов</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./src/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <div class="reading-progress" aria-hidden="true"><span id="reading-progress-bar"></span></div>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="author-mark" href="#top" aria-label="Михаил Сапогов — к началу страницы">
+        <span class="author-monogram" aria-hidden="true">МС</span>
+        <span>Михаил Сапогов</span>
+      </a>
+      <nav class="top-nav" aria-label="Основная навигация">
+        <a href="#mechanism">Механизм</a>
+        <a href="#calculator">Калькулятор</a>
+        <a href="#legislation">Проект нормы</a>
+        <a href="#sources">Источники</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" aria-labelledby="page-title">
+      <div class="hero-meta">
+        <span>Исследование · 2026</span>
+        <span>Цифровой контент</span>
+      </div>
+      <h1 id="page-title">Экономическая свобода бизнеса <span>и автономия муниципалитетов</span></h1>
+      <p class="hero-subtitle">Налоговые льготы за цифровые пожертвования как механизм технологического развития территорий</p>
+      <div class="hero-rule" aria-hidden="true"></div>
+      <div class="hero-bottom">
+        <p class="hero-thesis">Бизнес получает законную возможность уменьшить налоговую базу, передав не деньги, а полезный цифровой актив. Муниципалитет — новый ресурс для решения местных задач, не дожидаясь очередного бюджетного распределения.</p>
+        <div class="hero-actions">
+          <a class="primary-action" href="#calculator">Рассчитать льготу <span aria-hidden="true">↘</span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="shell content-layout">
+      <article class="article-flow">
+        <section id="abstract" class="article-section abstract-section" aria-labelledby="abstract-title">
+          <p class="section-label">Центральный тезис</p>
+          <h2 id="abstract-title">Не новый трансферт, а новый канал ресурсного обеспечения</h2>
+          <p class="lead">Предлагается специальный налоговый режим: коммерческая организация безвозмездно передаёт муниципалитету программное обеспечение, лицензию, информационную систему, базу данных или иной цифровой актив, а взамен получает предусмотренное законом налоговое преимущество.</p>
+          <p>Это не право произвольно не платить налоги. Это законодательно установленный выбор: направить часть экономической стоимости на конкретную общественно полезную задачу и учесть её при налогообложении. Для муниципалитета модель означает не полную бюджетную самостоятельность, а дополнительный <strong>внебюджетный канал технологического обеспечения</strong>.</p>
+          <dl class="stakeholder-list">
+            <div>
+              <dt>Для бизнеса</dt>
+              <dd>Законная налоговая экономия и защита права распоряжаться принадлежащими ему цифровыми активами.</dd>
+            </div>
+            <div>
+              <dt>Для муниципалитета</dt>
+              <dd>Непосредственное получение цифровой инфраструктуры без покупки за бюджетные средства или привлечения кредита.</dd>
+            </div>
+            <div>
+              <dt>Для государства</dt>
+              <dd>Стимулирование локального развития без прямого финансирования каждой отдельной цифровой инициативы.</dd>
+            </div>
+          </dl>
+          <aside class="status-note">
+            <strong>Статус проекта</strong>
+            <p>На сайте представлено авторское законодательное предложение, а не описание действующей льготы. Расчёты демонстрируют модель и не являются налоговой консультацией.</p>
+          </aside>
+        </section>
+
+        <section id="problem" class="article-section" aria-labelledby="problem-title">
+          <p class="section-label">01 · Постановка проблемы</p>
+          <h2 id="problem-title">Имущество уже цифровое, а налоговый стимул — ещё нет</h2>
+          <p>Цифровые права относятся к объектам гражданских прав, а пожертвование по статье 582 ГК РФ может представлять собой дарение не только вещи, но и права в общеполезных целях <a class="cite" href="#source-1" data-ref="1" aria-label="Источник 1">[1]</a> <a class="cite" href="#source-2" data-ref="2" aria-label="Источник 2">[2]</a>. Закон № 259-ФЗ отдельно регулирует цифровые финансовые активы и цифровую валюту <a class="cite" href="#source-3" data-ref="3" aria-label="Источник 3">[3]</a>.</p>
+          <p>Однако гражданско-правовая допустимость передачи сама по себе не создаёт понятного налогового режима для донора. В работе это сформулировано как разрыв: цифровой актив признан имуществом или имущественным правом, но специальные правила его пожертвования, оценки и налогового стимулирования отсутствуют.</p>
+          <blockquote>
+            <p>Правовая неопределённость превращает социально полезную передачу актива в рискованную операцию. Задача предложения — заменить этот риск заранее известными условиями, пределами и процедурой контроля.</p>
+          </blockquote>
+          <h3>Рабочее определение</h3>
+          <p><strong>Цифровая благотворительность</strong> — безвозмездное предоставление цифровых активов адресатам благотворительных целей при условии, что активы обладают экономической ценностью, допускают гражданско-правовой оборот, а передача документально оформлена и учитывается по правилам соответствующего налогового режима.</p>
+        </section>
+
+        <section id="comparative" class="article-section" aria-labelledby="comparative-title">
+          <p class="section-label">02 · Сравнительный анализ</p>
+          <h2 id="comparative-title">Примеры из других правовых систем</h2>
+          <p>Сравнение показывает: сама нематериальность актива не является главным препятствием. Решающее значение имеют признанный статус получателя, метод оценки и документальная процедура.</p>
+          <div class="table-wrap">
+            <table class="research-table responsive-table">
+              <caption>Цифровые пожертвования в США, Германии и России</caption>
+              <thead>
+                <tr><th scope="col">Юрисдикция</th><th scope="col">Подход</th><th scope="col">Практический вывод</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" data-label="Юрисдикция">США</th>
+                  <td data-label="Подход">Цифровые активы рассматриваются как имущество; применяются правила неденежных пожертвований и рыночной оценки <a class="cite" href="#source-4" data-ref="4">[4]</a> <a class="cite" href="#source-5" data-ref="5">[5]</a>.</td>
+                  <td data-label="Вывод">Наиболее формализованный режим: вычет зависит от статуса получателя, оценки и отчётности. Для пожертвования свыше 5 000 долларов может требоваться квалифицированная оценка <a class="cite" href="#source-6" data-ref="6">[25]</a>.</td>
+                </tr>
+                <tr>
+                  <th scope="row" data-label="Юрисдикция">Германия</th>
+                  <td data-label="Подход">Общий имущественный подход; криптоактивы включаются в существующие гражданско-правовые и налоговые конструкции <a class="cite" href="#source-7" data-ref="7">[7]</a> <a class="cite" href="#source-8" data-ref="8">[8]</a>.</td>
+                  <td data-label="Вывод">Передача нормативно возможна, но специализированный режим цифровой благотворительности институционально не развит.</td>
+                </tr>
+                <tr>
+                  <th scope="row" data-label="Юрисдикция">Россия</th>
+                  <td data-label="Подход">Цифровые права признаются объектами гражданских прав, однако специальная конструкция их пожертвования не закреплена <a class="cite" href="#source-3" data-ref="3">[3]</a>.</td>
+                  <td data-label="Вывод">Есть гражданско-правовая основа, но нет универсального налогового вычета за любое безвозмездное пожертвование и достаточной процедурной определённости.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="table-note">Сравнение воспроизводит выводы исходной работы и не претендует на исчерпывающий обзор всех норм соответствующих юрисдикций.</p>
+        </section>
+
+        <section id="cases" class="article-section" aria-labelledby="cases-title">
+          <p class="section-label">03 · Практика</p>
+          <h2 id="cases-title">Что показывают американские кейсы</h2>
+          <p>Жизнеспособная цифровая благотворительность развивается преимущественно через уже существующие налогово признанные организации и инфраструктуру, а не как изолированная «криптоблаготворительность».</p>
+          <div class="case-list">
+            <article>
+              <div class="case-heading"><h3>GiveCrypto</h3><span>Прямая передача</span></div>
+              <p>Криптовалюта распределялась людям, живущим в бедности; после транзакции донор получал квитанцию. В работе этот кейс отнесён к цифровой благотворительности в строгом смысле <a class="cite" href="#source-9" data-ref="9">[9]</a>.</p>
+            </article>
+            <article>
+              <div class="case-heading"><h3>The Giving Block</h3><span>Технологический посредник</span></div>
+              <p>Платформа обеспечивает приём и конвертацию активов для признанных благотворительных организаций, но сама не заменяет конечного получателя <a class="cite" href="#source-10" data-ref="10">[10]</a> <a class="cite" href="#source-11" data-ref="11">[11]</a>.</p>
+            </article>
+            <article>
+              <div class="case-heading"><h3>Fidelity Charitable</h3><span>Донор-советируемый фонд</span></div>
+              <p>Цифровой актив передаётся в DAF, а налоговые последствия связываются с моментом передачи в фонд, а не с последующим распределением конечному получателю <a class="cite" href="#source-12" data-ref="12">[12]</a> <a class="cite" href="#source-13" data-ref="13">[13]</a>.</p>
+            </article>
+          </div>
+          <details class="inline-details">
+            <summary>Почему Wikimedia и Linux Foundation вынесены за пределы строгого определения</summary>
+            <p>В исходной работе эти кейсы используются как контраст: пожертвование организации, работающей в цифровой сфере, не тождественно пожертвованию цифрового актива. Кроме того, налоговый статус организаций различается <a class="cite" href="#source-14" data-ref="14">[14]</a> <a class="cite" href="#source-15" data-ref="15">[15]</a> <a class="cite" href="#source-16" data-ref="16">[16]</a>.</p>
+          </details>
+        </section>
+
+        <section id="mechanism" class="article-section" aria-labelledby="mechanism-title">
+          <p class="section-label">04 · Предлагаемый механизм</p>
+          <h2 id="mechanism-title">Актив — муниципалитету, вычет — бизнесу</h2>
+          <p>Коммерческая организация передаёт муниципальному образованию или уполномоченному учреждению цифровой актив с подтверждённой общественной полезностью. При соблюдении установленных условий организация уменьшает налоговую базу по налогу на прибыль либо, в альтернативной модели, исчисленный налог.</p>
+
+          <h3>Что можно передавать</h3>
+          <ul class="asset-list">
+            <li><strong>Информационные системы:</strong> ГИС, цифровые карты сетей, учёт земельных участков и муниципального имущества.</li>
+            <li><strong>Программное обеспечение и права:</strong> лицензии, исключительные права, права использования специализированного ПО и электронного документооборота.</li>
+            <li><strong>Цифровые платформы:</strong> решения для городского хозяйства, анализа транспортных потоков, мониторинга инфраструктуры и обработки обращений.</li>
+            <li><strong>Данные и цифровые модели:</strong> законно передаваемые наборы данных, модели инфраструктуры и техническая документация с необходимыми правами.</li>
+          </ul>
+
+          <div class="table-wrap">
+            <table class="research-table responsive-table model-table">
+              <caption>Три варианта налогового стимулирования</caption>
+              <thead><tr><th scope="col">Модель</th><th scope="col">Как работает</th><th scope="col">Главный риск</th></tr></thead>
+              <tbody>
+                <tr><th scope="row" data-label="Модель">Обычный вычет</th><td data-label="Механизм">Из налоговой базы вычитается подтверждённая стоимость актива: <i>V</i>.</td><td data-label="Ограничение">Стимул может оказаться недостаточным.</td></tr>
+                <tr><th scope="row" data-label="Модель">Повышенный вычет</th><td data-label="Механизм">Из базы вычитается <i>k × V</i>, например 150% стоимости при <i>k</i> = 1,5.</td><td data-label="Ограничение">Бюджетные потери и риск завышения оценки.</td></tr>
+                <tr><th scope="row" data-label="Модель">Налоговый кредит</th><td data-label="Механизм">Исчисленный налог уменьшается на установленную долю стоимости актива: <i>c × V</i>.</td><td data-label="Ограничение">Более высокая стоимость льготы для бюджета.</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="table-note">Таблица составлена по исходной работе; сравнительные подходы к налоговой автономии и финансированию местных инвестиций: <a class="cite" href="#source-17" data-ref="17">[17]</a> <a class="cite" href="#source-18" data-ref="18">[18]</a>.</p>
+        </section>
+
+        <section id="financing" class="article-section" aria-labelledby="financing-title">
+          <p class="section-label">05 · Финансирование территорий</p>
+          <h2 id="financing-title">Что меняется в схеме</h2>
+          <p>Предложение не отменяет межбюджетные трансферты и не заменяет местные доходы. Оно добавляет параллельный канал: вместо денежной цепочки «налог → бюджет → закупка» муниципалитет может получить непосредственно пригодный цифровой актив.</p>
+
+          <figure class="finance-figure" aria-labelledby="before-caption">
+            <div class="figure-heading"><span>До внедрения</span><span>Денежные потоки</span></div>
+            <div class="flow-root">Федеральные, региональные и местные налоги<br><small>Распределение регулируется БК РФ и НК РФ</small></div>
+            <div class="budget-chain" aria-label="Цепочка бюджетных потоков">
+              <div class="flow-node"><strong>Федеральный бюджет</strong><span>Федеральные доходы</span></div>
+              <div class="flow-arrow"><span aria-hidden="true">→</span><small>трансферты</small></div>
+              <div class="flow-node"><strong>Региональный бюджет</strong><span>Региональные доходы</span></div>
+              <div class="flow-arrow"><span aria-hidden="true">→</span><small>трансферты</small></div>
+              <div class="flow-node emphasis"><strong>Местный бюджет</strong><span>Муниципальные расходы</span></div>
+            </div>
+            <div class="direct-income"><span>Собственные и закреплённые доходы</span><span aria-hidden="true">→</span><strong>Местный бюджет</strong></div>
+            <figcaption id="before-caption">Рисунок 1. Концептуальная схема существующих потоков. Межбюджетные трансферты могут поступать из разных бюджетов; нормативы зачисления различаются <a class="cite" href="#source-19" data-ref="19">[19]</a> <a class="cite" href="#source-20" data-ref="20">[20]</a> <a class="cite" href="#source-21" data-ref="21">[21]</a> <a class="cite" href="#source-22" data-ref="22">[22]</a>.</figcaption>
+          </figure>
+
+          <figure class="finance-figure proposed" aria-labelledby="after-caption">
+            <div class="figure-heading"><span>После внедрения</span><span>Добавляется ресурсный канал</span></div>
+            <div class="relation-list" aria-label="Потоки предлагаемого механизма">
+              <div class="relation primary-relation">
+                <div class="flow-node"><strong>Коммерческая организация</strong><span>Донор</span></div>
+                <div class="flow-arrow"><span aria-hidden="true">→</span><small>цифровой актив</small></div>
+                <div class="flow-node emphasis"><strong>Муниципалитет</strong><span>Общественно полезная задача</span></div>
+              </div>
+              <div class="relation">
+                <div class="flow-node compact"><strong>Донор</strong></div>
+                <div class="flow-arrow dashed"><span aria-hidden="true">⇢</span><small>документы</small></div>
+                <div class="flow-node compact"><strong>Налоговый орган</strong><span>Контроль условий</span></div>
+              </div>
+              <div class="relation">
+                <div class="flow-node compact"><strong>Налоговый орган</strong></div>
+                <div class="flow-arrow dashed"><span aria-hidden="true">⇢</span><small>проверка</small></div>
+                <div class="flow-node compact"><strong>Муниципалитет</strong><span>Принятие и использование</span></div>
+              </div>
+              <div class="relation">
+                <div class="flow-node compact"><strong>Налоговый механизм</strong></div>
+                <div class="flow-arrow"><span aria-hidden="true">→</span><small>вычет</small></div>
+                <div class="flow-node compact"><strong>Донор</strong><span>Налоговая экономия</span></div>
+              </div>
+            </div>
+            <div class="compensation-note"><strong>Отдельный вопрос законопроекта:</strong> если льгота затрагивает доходы разных уровней бюджета, необходимо заранее определить источник и порядок компенсации выпадающих доходов. В исходной схеме предполагается федеральная компенсация субъектам РФ.</div>
+            <figcaption id="after-caption">Рисунок 2. Существующие бюджетные потоки сохраняются; новый канал показан отдельно. Актив передаётся муниципалитету, а налоговая экономия остаётся у донора.</figcaption>
+          </figure>
+
+          <details class="original-schemes" open>
+            <summary>Схемы распределения налоговых доходов: AS-IS и TO-BE</summary>
+            <div class="tax-schemes">
+              <section class="tax-scheme" aria-labelledby="tax-asis-title">
+                <div class="tax-scheme-heading"><span>AS-IS</span><h3 id="tax-asis-title">Действующая система распределения</h3></div>
+                <p class="tax-scheme-intro">Федеральные налоги и другие доходы бюджетной системы (распределение регулируется БК РФ и НК РФ)</p>
+                <div class="tax-level federal">
+                  <div class="tax-level-title"><strong>Федеральный бюджет</strong><span>Большая часть</span></div>
+                  <ul>
+                    <li>Налог на добавленную стоимость (НДС)</li><li>Акцизы</li><li>Налог на доходы физических лиц (НДФЛ)</li><li>Налог на прибыль организаций</li><li>Налог на добычу полезных ископаемых (НДПИ)</li><li>Водный налог</li><li>Государственная пошлина</li><li>Сборы за пользование объектами животного мира и водных биологических ресурсов</li><li>Налог на дополнительный доход от добычи углеводородного сырья</li><li>Налог на сверхприбыль</li><li>Налог на игорный бизнес</li>
+                  </ul>
+                </div>
+                <div class="tax-transfer"><span class="transfer-label">Федеральные межбюджетные трансферты</span><span class="transfer-arrow" aria-hidden="true">↓</span><small>Дотации · субсидии · субвенции · иные трансферты</small></div>
+                <div class="tax-level regional">
+                  <div class="tax-level-title"><strong>Региональный бюджет</strong><span>Средняя часть</span></div>
+                  <ul><li>Транспортный налог</li><li>Налог на имущество организаций</li></ul>
+                </div>
+                <div class="tax-transfer"><span class="transfer-label">Региональные межбюджетные трансферты</span><span class="transfer-arrow" aria-hidden="true">↓</span><small>Дотации · субсидии · субвенции · иные трансферты</small></div>
+                <div class="tax-level local">
+                  <div class="tax-level-title"><strong>Местные бюджеты</strong><span>Малая часть</span></div>
+                  <ul><li>Земельный налог</li><li>Налог на имущество физических лиц</li><li>Торговый сбор</li><li>Туристический налог</li></ul>
+                </div>
+              </section>
+              <section class="tax-scheme to-be" aria-labelledby="tax-tobe-title">
+                <div class="tax-scheme-heading"><span>TO-BE</span><h3 id="tax-tobe-title">Предлагаемое дополнение</h3></div>
+                <p class="tax-scheme-intro">Существующее распределение налогов и межбюджетных трансфертов сохраняется. Добавляется отдельный канал цифрового пожертвования.</p>
+                <div class="legacy-flow">
+                  <div class="legacy-level">Федеральный бюджет <small>Большая часть доходов</small></div>
+                  <div class="legacy-arrow"><span aria-hidden="true">↓</span><small>межбюджетные трансферты</small></div>
+                  <div class="legacy-level">Региональный бюджет <small>Средняя часть доходов</small></div>
+                  <div class="legacy-arrow"><span aria-hidden="true">↓</span><small>межбюджетные трансферты</small></div>
+                  <div class="legacy-level">Местные бюджеты <small>Малая часть доходов</small></div>
+                </div>
+                <div class="digital-donation">
+                  <div class="donation-party"><strong>Коммерческая организация</strong><span>Передаёт цифровой актив безвозмездно</span></div>
+                  <div class="donation-arrow">цифровой актив ↓</div>
+                  <div class="donation-party municipality"><strong>Муниципалитет</strong><span>Принимает актив для общественно полезной задачи</span></div>
+                  <div class="donation-note">Налоговый вычет предоставляется донору при соблюдении условий нормы. Бюджетная система и прежние потоки не заменяются.</div>
+                </div>
+              </section>
+            </div>
+          </details>
+        </section>
+
+        <section id="calculator" class="article-section calculator-section" aria-labelledby="calculator-title">
+          <p class="section-label">06 · Интерактивная модель</p>
+          <h2 id="calculator-title">Калькулятор налогового стимула</h2>
+          <p>Измените стоимость актива, налоговую базу и параметры льготы. Все суммы рассчитываются в рублях; модель предполагает, что организация может использовать вычет или кредит в том же налоговом периоде.</p>
+
+          <form id="tax-calculator" class="calculator" novalidate>
+            <fieldset class="model-choice">
+              <legend>Модель стимулирования</legend>
+              <label><input type="radio" name="model" value="ordinary"><span>Обычный вычет</span></label>
+              <label><input type="radio" name="model" value="enhanced" checked><span>Повышенный вычет</span></label>
+              <label><input type="radio" name="model" value="credit"><span>Налоговый кредит</span></label>
+            </fieldset>
+
+            <div class="input-grid">
+              <label class="field">
+                <span>Стоимость актива, <i>V</i> · ₽</span>
+                <input id="asset-value" name="assetValue" type="number" min="0" max="1000000000000" step="100000" value="10000000" inputmode="decimal">
+                <small>Подтверждённая рыночная стоимость передаваемых прав</small>
+              </label>
+              <label class="field">
+                <span>Налоговая база до льготы, <i>B</i> · ₽</span>
+                <input id="tax-base" name="taxBase" type="number" min="0" max="1000000000000" step="100000" value="100000000" inputmode="decimal">
+                <small>Прибыль до применения рассматриваемого вычета</small>
+              </label>
+              <label class="field">
+                <span>Ставка налога, <i>r</i> · %</span>
+                <input id="tax-rate" name="taxRate" type="number" min="0" max="100" step="0.5" value="25" inputmode="decimal">
+                <small>25% — ставка примера из работы</small>
+              </label>
+              <label class="field parameter-field" id="coefficient-field">
+                <span>Коэффициент вычета, <i>k</i> · <output id="coefficient-output" for="coefficient">1,5</output></span>
+                <input id="coefficient" name="coefficient" type="range" min="1" max="2" step="0.1" value="1.5">
+                <small>1 — обычный вычет; 1,5 — базовая гипотеза работы</small>
+              </label>
+              <label class="field parameter-field" id="credit-field" hidden>
+                <span>Доля налогового кредита, <i>c</i> · <output id="credit-output" for="credit-rate">30%</output></span>
+                <input id="credit-rate" name="creditRate" type="range" min="0" max="100" step="5" value="30">
+                <small>Кредит ограничен исчисленной суммой налога</small>
+              </label>
+            </div>
+
+            <div class="formula-display" aria-live="polite">
+              <span>Формула</span>
+              <code id="formula-text">Экономия = min(k × V, B) × r</code>
+            </div>
+
+            <div class="results" aria-live="polite" aria-atomic="true">
+              <div class="result-primary">
+                <span id="savings-label">Налоговая экономия бизнеса</span>
+                <strong id="savings-value">3 750 000 ₽</strong>
+                <small>Эта сумма остаётся у организации за счёт уменьшения налога</small>
+              </div>
+              <dl class="result-grid">
+                <div><dt>Налог до льготы</dt><dd id="tax-before">25 000 000 ₽</dd></div>
+                <div><dt>Налог после льготы</dt><dd id="tax-after">21 250 000 ₽</dd></div>
+                <div><dt id="deduction-label">Использованный вычет</dt><dd id="deduction-value">15 000 000 ₽</dd></div>
+                <div><dt>Разница с обычным вычетом</dt><dd id="additional-value">+1 250 000 ₽</dd></div>
+                <div><dt>Стоимость пожертвования для бизнеса</dt><dd id="net-cost">6 250 000 ₽</dd></div>
+                <div><dt>Налоговые расходы бюджета</dt><dd id="fiscal-cost">3 750 000 ₽</dd></div>
+              </dl>
+            </div>
+
+            <p id="calculator-warning" class="calculator-warning" hidden></p>
+            <p class="calculation-note"><strong>Муниципалитет получает актив стоимостью <span id="municipal-value">10 000 000 ₽</span>, а не денежный перевод.</strong> Стоимость внедрения, сопровождения и владения активом в расчёт не включена.</p>
+
+            <div class="calculator-actions">
+              <button type="button" class="button-secondary" id="copy-calculation">Скопировать расчёт</button>
+            </div>
+          </form>
+
+          <details class="worked-example">
+            <summary>Проверить пример: 10 млн ₽, k = 1,5, r = 25%</summary>
+            <ol>
+              <li>Повышенный вычет: 1,5 × 10 млн = <strong>15 млн ₽</strong>.</li>
+              <li>Экономия при повышенном вычете: 15 млн × 25% = <strong>3,75 млн ₽</strong>.</li>
+              <li>Экономия при обычном вычете: 10 млн × 25% = <strong>2,5 млн ₽</strong>.</li>
+              <li>Дополнительный стимул: 3,75 млн − 2,5 млн = <strong>1,25 млн ₽</strong>.</li>
+            </ol>
+          </details>
+        </section>
+
+        <section id="safeguards" class="article-section" aria-labelledby="safeguards-title">
+          <p class="section-label">07 · Условия и гарантии</p>
+          <h2 id="safeguards-title">Льгота работает только вместе с ограничениями</h2>
+          <p>Чем сильнее стимул, тем выше риск завышения стоимости и фиктивной передачи. Поэтому механизм нельзя сводить к одному коэффициенту.</p>
+          <div class="safeguard-list">
+            <article><span>01</span><div><h3>Независимая оценка</h3><p>Учитывается рыночная стоимость на дату передачи, подтверждённая независимой оценкой или установленным законом методом.</p></div></article>
+            <article><span>02</span><div><h3>Оценка именно передаваемых прав</h3><p>Для ПО важны срок и объём лицензии, ограничения использования, внедрение и сопровождение — не абстрактная стоимость всей разработки.</p></div></article>
+            <article><span>03</span><div><h3>Общественная полезность</h3><p>Получатель подтверждает принятие актива и его предназначение для конкретной муниципальной задачи.</p></div></article>
+            <article><span>04</span><div><h3>Запрет встречного предоставления</h3><p>Исключаются фиктивные сделки, возврат актива и скрытая экономически эквивалентная компенсация донору.</p></div></article>
+            <article><span>05</span><div><h3>Запрет двойного учёта</h3><p>Одна и та же стоимость не может повторно уменьшать налог через расходы, вычет и налоговый кредит.</p></div></article>
+            <article><span>06</span><div><h3>Последующий контроль</h3><p>Закон должен определить учёт, эксплуатацию, списание, целевое использование и восстановление льготы при нарушениях.</p></div></article>
+          </div>
+          <aside class="research-caveat">
+            <h3>Что необходимо проверять эмпирически</h3>
+            <p>Нельзя заранее считать модель эффективной. Нужно оценить объём реально полученных активов, дополнительные налоговые расходы, стоимость владения для муниципалитета и долю пожертвований, которые состоялись именно благодаря льготе. Предположение о влиянии дорогого кредита на поведение бизнеса также требует отдельной проверки <a class="cite" href="#source-23" data-ref="23">[23]</a>.</p>
+          </aside>
+        </section>
+
+        <section id="legislation" class="article-section legislation-section" aria-labelledby="legislation-title">
+          <p class="section-label">08 · Законодательное предложение</p>
+          <h2 id="legislation-title">Проект нормы</h2>
+          <p>Формулировка ниже редакционно уточнена: повышенный вычет уменьшает <strong>налоговую базу</strong>, а не непосредственно исчисленную сумму налога. Это соответствует расчётной модели работы.</p>
+
+          <article class="legal-text" id="legal-text" aria-label="Предлагаемая законодательная формулировка">
+            <div class="legal-heading"><span>Проект специальной нормы к главе 25 НК РФ</span><span>Для обсуждения</span></div>
+            <p><strong>1.</strong> Российская организация вправе уменьшить налоговую базу по налогу на прибыль организаций на стоимость цифрового актива, безвозмездно переданного муниципальному образованию либо уполномоченному муниципальному учреждению для решения общественно полезной муниципальной задачи, с применением коэффициента повышенного вычета, установленного Налоговым кодексом Российской Федерации.</p>
+            <p><strong>2.</strong> Право на вычет возникает при одновременном соблюдении следующих условий:</p>
+            <ul class="legal-conditions" style="padding-inline-start: 5.0em">
+              <li>передаваемый объект включён в установленный законом перечень цифровых активов и допускает передачу соответствующих прав;</li>
+              <li>передача оформлена договором пожертвования либо иной предусмотренной законом безвозмездной сделкой, соответствующей её действительному экономическому содержанию;</li>
+              <li>рыночная стоимость передаваемых прав подтверждена в установленном порядке;</li>
+              <li>получатель подтвердил принятие актива и его предназначение для решения муниципальной задачи;</li>
+              <li>между жертвователем и получателем отсутствует встречное предоставление, экономически эквивалентное пожертвованию.</li>
+            </ul>
+            <p><strong>3.</strong> Предельный размер вычета, коэффициент его повышения, порядок переноса неиспользованной суммы, требования к документам и правила контроля устанавливаются Налоговым кодексом Российской Федерации.</p>
+            <p><strong>4.</strong> Не допускается повторный учёт одной и той же стоимости в составе расходов, налогового вычета или налогового кредита. Вычет подлежит восстановлению в случаях фиктивности сделки, возврата актива или нарушения условий его предоставления.</p>
+          </article>
+          <div class="legal-actions">
+            <button class="button-secondary" id="copy-legal" type="button">Скопировать формулировку</button>
+          </div>
+
+          <h3>Необходимый пакет изменений</h3>
+          <ol class="amendment-list">
+            <li><strong>ГК РФ:</strong> прямо предусмотреть возможность пожертвования цифровых прав, исключительных прав на программы для ЭВМ, лицензий и иных передаваемых имущественных прав; определить подтверждение перехода права.</li>
+            <li><strong>НК РФ:</strong> закрепить специальное основание вычета, порядок оценки, пределы, перенос неиспользованной суммы и запрет двойного учёта.</li>
+            <li><strong>Перечень и экспертиза:</strong> определить допустимые активы, требования к оценке, документам и подтверждению общественной полезности.</li>
+            <li><strong>Муниципальный учёт:</strong> урегулировать принятие в собственность, на баланс учреждения или в пользование, а также эксплуатацию, списание и контроль.</li>
+          </ol>
+        </section>
+
+        <section id="conclusion" class="article-section conclusion-section" aria-labelledby="conclusion-title">
+          <p class="section-label">Заключение</p>
+          <h2 id="conclusion-title">Свобода распоряжаться собственностью должна сопровождаться ясным правилом</h2>
+          <p>Цифровая благотворительность возможна там, где имущественная природа актива соединена с работающей налоговой процедурой. Для России предлагаемый механизм должен одновременно устранить правовую неопределённость, дать бизнесу измеримый стимул и защитить публичный интерес от фиктивных или завышенных пожертвований.</p>
+          <p>Практическая ценность модели — в появлении дополнительного канала технологического развития территории. Но её эффективность должна доказываться не только красотой схемы: необходимы пилотные проекты, оценка фискальных издержек и проверка реальной полезности каждого переданного актива.</p>
+        </section>
+
+
+        <section id="sources" class="article-section sources-section" aria-labelledby="sources-title">
+          <p class="section-label">Примечания и библиография</p>
+          <h2 id="sources-title">Источники</h2>
+          <p>Нумерация источников соответствует ссылкам в тексте. При наведении, фокусе или касании ссылки [n] открывается краткая справка и прямой переход к источнику.</p>
+          <ol class="sources-list" id="sources-list"></ol>
+        </section>
+      </article>
+
+      <aside class="toc" aria-label="Содержание статьи">
+        <div class="toc-inner">
+          <p>Содержание</p>
+          <nav>
+            <a href="#abstract">Тезис</a>
+            <a href="#problem">Проблема</a>
+            <a href="#comparative">Сравнение</a>
+            <a href="#cases">Кейсы</a>
+            <a href="#mechanism">Механизм</a>
+            <a href="#financing">Схемы</a>
+            <a href="#calculator">Калькулятор</a>
+            <a href="#safeguards">Гарантии</a>
+            <a href="#legislation">Проект нормы</a>
+            <a href="#sources">Источники</a>
+        <a href="#sources">Источники</a>
+          </nav>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <p class="footer-name">Михаил Александрович Сапогов</p>
+        <p>ЧОУ ВО СПбУТУиЭ · Институт управления и информационных технологий<br>38.04.05 «Бизнес-информатика» · 2 курс</p>
+      </div>
+      <div>
+        <p><strong>Научный руководитель</strong><br>Алексеева Юлия Сергеевна, к.ю.н.</p>
+        <p>Санкт-Петербург · 2026</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://upchspb.ru/news/34920/" target="_blank" rel="noopener">Условия конкурса «Права человека—2026» <span aria-hidden="true">↗</span></a>
+        <a href="./LICENSE.md">Лицензия CC BY 4.0 <span aria-hidden="true">↗</span></a>
+        <a href="#top">Наверх <span aria-hidden="true">↑</span></a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="reference-popover" id="reference-popover" role="dialog" aria-modal="false" aria-labelledby="popover-title" hidden>
+    <div class="popover-topline"><span id="popover-number"></span><button type="button" id="popover-close" aria-label="Закрыть справку">×</button></div>
+    <h2 id="popover-title"></h2>
+    <p id="popover-description"></p>
+    <div class="popover-links"><a id="popover-source" href="" target="_blank" rel="noopener">Открыть источник <span aria-hidden="true">↗</span></a><a id="popover-list-link" href="#sources">В библиографии</a></div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
